@@ -1,0 +1,42 @@
+
+<nav class="navbar position-fixed w-100 top-0 navbar-expand-sm navbar-dark py-4">
+    <div class="container">
+        <a class="navbar-brand fw-bolder fs-2" [routerLink]="['/START FRAMEWORK']">START FRAMEWORK</a>
+        <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav fw-bolder ms-auto mt-2 mt-lg-0">
+             
+                <li class="nav-item ">
+                    <a class="text-light nav-link" [routerLink]="['/ABOUT']" [routerLinkActive]="['bg-info' , 'rounded-3']" >ABOUT</a>
+                </li>
+        
+                <li class="nav-item mx-3">
+                    <a class="text-light nav-link" [routerLink]="['/PORTFOLIO']" [routerLinkActive]="['bg-info' , 'rounded-3']">PORTFOLIO</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="text-light nav-link" [routerLink]="['/CONTACT']" [routerLinkActive]="['bg-info' , 'rounded-3']">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+
+
+
+
